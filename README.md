@@ -16,16 +16,22 @@ This project was 99% vibe coded as a fun Saturday hack because I wanted to explo
 
 ## Setup
 
+### Prerequisites
+
+- **[uv](https://docs.astral.sh/uv/)**: Python package manager.
+- **Node.js & npm**: For the frontend.
+- **OpenRouter API Key**: Required to access the LLMs.
+
 ### 1. Install Dependencies
 
-The project uses [uv](https://docs.astral.sh/uv/) for project management.
-
 **Backend:**
+Run this in the project root directory:
 ```bash
 uv sync
 ```
 
 **Frontend:**
+Navigate to the frontend directory:
 ```bash
 cd frontend
 npm install
